@@ -1,16 +1,16 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="card mt-5"> 
+<div class="card mt-1"> 
     <div class="card-header">
         <div class="row">
             <div class="col-sm-6">
-                <a href="{!! route('products.create') !!}" class="btn btn-primary">
-                    Tambah Produk
+                <a href="{!! route('product_categories.create') !!}" class="btn btn-primary">
+                    Tambah Transaksi Produk
                 </a>
             </div>
             <div class="col-sm-6">
-                Halaman Produk
+                Halaman Transaksi Produk
             </div>
         </div>
     </div>
@@ -24,18 +24,16 @@
             <thead>
                 <tr>
                     <th>Aksi</th>
-                    <th>Kategori</th>
-                    <th>Nama</th>
-                    <th>Deskripsi</th>
-                    <th>Min Stock</th>
-                    <th>Max Stock</th>
-                    <th>Harga Beli</th>
-                    <th>Harga Jual</th>
-                    <th>Dibuat Pada</th>
+                    <th>Nama Member</th>
+                    <th>Email Member</th>
+                    <th>Tanggal Transaksi</th>
+                    <th>Subtotal</th>
+                    <th>Diskon</th>
+                    <th>Grand Total</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach ($products as $product)
+                @foreach ($product_categories as $product_category)
                     <tr>
                         <td>
                             <div class="dropdown">
@@ -44,10 +42,10 @@
                                 </button>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item" href="{!! route('products.edit',$product->id) !!}">Edit</a>
+                                        <a class="dropdown-item" href="{!! route('product_categories.edit',$product_category->id) !!}">Edit</a>
                                     </li>
                                     <li>
-                                        <form action="{!! route('products.destroy',$product->id) !!}" method="POST">
+                                        <form action="{!! route('product_categories.destroy',$product_category->id) !!}" method="POST">
                                             @csrf
                                             @method('DELETE')
                                             <button class="dropdown-item" type="submit">
@@ -58,14 +56,14 @@
                                 </ul>
                             </div>
                         </td>
-                        <td>{{ $product->productCategory->name }}</td>
-                        <td>{!! $product->name !!}</td>
-                        <td>{!! $product->description !!}</td>
-                        <td>{!! $product->minimal_stock !!}</td>
-                        <td>{!! $product->maximal_stock !!}</td>
-                        <td>{!! $product->purchase_price !!}</td>
-                        <td>{!! $product->selling_price !!}</td>
-                        <td>{!! $product->created_at !!}</td>
+                        <td>{!! $product_category->name !!}</td>
+                        <td>{!! $product_category->description !!}</td>
+                        <td>{!! $product_category->updated_at !!}</td>
+                        <td>
+                            @foreach ($product_category->products as $product)
+                                <p>{!! $product->name !!}</p>
+                            @endforeach
+                        </td>
                     </tr>
                 @endforeach
             </tbody>

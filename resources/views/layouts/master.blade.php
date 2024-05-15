@@ -28,12 +28,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="">Member</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">
-                            Paket Member
-                        </a>
+                        <a class="nav-link" aria-current="page" href="{!! route('transactions.index') !!}">Transaksi</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
