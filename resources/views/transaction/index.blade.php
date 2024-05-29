@@ -5,7 +5,7 @@
     <div class="card-header">
         <div class="row">
             <div class="col-sm-6">
-                <a href="{!! route('product_categories.create') !!}" class="btn btn-primary">
+                <a href="{!! route('transactions.create') !!}" class="btn btn-primary">
                     Tambah Transaksi Produk
                 </a>
             </div>
@@ -33,7 +33,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach ($product_categories as $product_category)
+                @foreach ($transactions as $transaction)
                     <tr>
                         <td>
                             <div class="dropdown">
@@ -42,10 +42,7 @@
                                 </button>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a class="dropdown-item" href="{!! route('product_categories.edit',$product_category->id) !!}">Edit</a>
-                                    </li>
-                                    <li>
-                                        <form action="{!! route('product_categories.destroy',$product_category->id) !!}" method="POST">
+                                        <form action="{!! route('product_categories.destroy',$transaction->id) !!}" method="POST">
                                             @csrf
                                             @method('DELETE')
                                             <button class="dropdown-item" type="submit">
@@ -56,14 +53,13 @@
                                 </ul>
                             </div>
                         </td>
-                        <td>{!! $product_category->name !!}</td>
-                        <td>{!! $product_category->description !!}</td>
-                        <td>{!! $product_category->updated_at !!}</td>
-                        <td>
-                            @foreach ($product_category->products as $product)
-                                <p>{!! $product->name !!}</p>
-                            @endforeach
-                        </td>
+                        <td>{!! $transaction->member_name !!}</td>
+                        <td>{!! $transaction->member_email !!}</td>
+                        <td>{!! $transaction->transaction_date !!}</td>
+                        <td>{!! $transaction->subtotal !!}</td>
+                        <td>{!! $transaction->discount !!}</td>
+                        <td>{!! $transaction->total !!}</td>
+                        <td>{!! $transaction->updated_at !!}</td>
                     </tr>
                 @endforeach
             </tbody>
