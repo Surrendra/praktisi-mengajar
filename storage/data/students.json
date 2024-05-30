@@ -12,8 +12,8 @@
         "id": 2,
         "name": "Babbie Conniam",
         "gender": "Female",
-        "physics": 71,
-        "maths": 88,
+        "physics": 60,
+        "maths": 61,
         "english": 69,
         "semester": 5
     },
@@ -39,7 +39,7 @@
         "id": 5,
         "name": "Sacha Nassi",
         "gender": "Female",
-        "physics": 92,
+        "physics": 56,
         "maths": 94,
         "english": 80,
         "semester": 3
@@ -57,7 +57,7 @@
         "id": 7,
         "name": "Chandra Escot",
         "gender": "Female",
-        "physics": 98,
+        "physics": 67,
         "maths": 76,
         "english": 67,
         "semester": 4
