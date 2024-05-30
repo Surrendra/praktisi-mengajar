@@ -1,0 +1,904 @@
+[
+    {
+        "id": 1,
+        "name": "Jedidiah Doxey",
+        "gender": "Male",
+        "physics": 82,
+        "maths": 75,
+        "english": 66,
+        "semester": 6
+    },
+    {
+        "id": 2,
+        "name": "Babbie Conniam",
+        "gender": "Female",
+        "physics": 71,
+        "maths": 88,
+        "english": 69,
+        "semester": 5
+    },
+    {
+        "id": 3,
+        "name": "Tom Labuschagne",
+        "gender": "Male",
+        "physics": 88,
+        "maths": 86,
+        "english": 84,
+        "semester": 3
+    },
+    {
+        "id": 4,
+        "name": "Christiana Bagnold",
+        "gender": "Male",
+        "physics": 84,
+        "maths": 63,
+        "english": 60,
+        "semester": 2
+    },
+    {
+        "id": 5,
+        "name": "Sacha Nassi",
+        "gender": "Female",
+        "physics": 92,
+        "maths": 94,
+        "english": 80,
+        "semester": 3
+    },
+    {
+        "id": 6,
+        "name": "Hoebart Waldram",
+        "gender": "Male",
+        "physics": 84,
+        "maths": 79,
+        "english": 94,
+        "semester": 3
+    },
+    {
+        "id": 7,
+        "name": "Chandra Escot",
+        "gender": "Female",
+        "physics": 98,
+        "maths": 76,
+        "english": 67,
+        "semester": 4
+    },
+    {
+        "id": 8,
+        "name": "Yettie Boulger",
+        "gender": "Female",
+        "physics": 61,
+        "maths": 60,
+        "english": 70,
+        "semester": 8
+    },
+    {
+        "id": 9,
+        "name": "Maurise Giacomelli",
+        "gender": "Male",
+        "physics": 75,
+        "maths": 60,
+        "english": 63,
+        "semester": 3
+    },
+    {
+        "id": 10,
+        "name": "Eddy Measham",
+        "gender": "Female",
+        "physics": 94,
+        "maths": 96,
+        "english": 62,
+        "semester": 8
+    },
+    {
+        "id": 11,
+        "name": "Valina Penvarne",
+        "gender": "Female",
+        "physics": 88,
+        "maths": 65,
+        "english": 92,
+        "semester": 6
+    },
+    {
+        "id": 12,
+        "name": "Janie Thrift",
+        "gender": "Female",
+        "physics": 60,
+        "maths": 62,
+        "english": 75,
+        "semester": 8
+    },
+    {
+        "id": 13,
+        "name": "Vivyan Lazarus",
+        "gender": "Female",
+        "physics": 66,
+        "maths": 80,
+        "english": 98,
+        "semester": 6
+    },
+    {
+        "id": 14,
+        "name": "Georgena Dowsett",
+        "gender": "Female",
+        "physics": 100,
+        "maths": 69,
+        "english": 86,
+        "semester": 5
+    },
+    {
+        "id": 15,
+        "name": "Rhoda Summerskill",
+        "gender": "Female",
+        "physics": 96,
+        "maths": 86,
+        "english": 81,
+        "semester": 7
+    },
+    {
+        "id": 16,
+        "name": "Blanche Lafranconi",
+        "gender": "Female",
+        "physics": 98,
+        "maths": 79,
+        "english": 61,
+        "semester": 7
+    },
+    {
+        "id": 17,
+        "name": "Harman Down",
+        "gender": "Male",
+        "physics": 78,
+        "maths": 65,
+        "english": 100,
+        "semester": 5
+    },
+    {
+        "id": 18,
+        "name": "Kerianne Ladds",
+        "gender": "Male",
+        "physics": 86,
+        "maths": 90,
+        "english": 96,
+        "semester": 7
+    },
+    {
+        "id": 19,
+        "name": "Dar Husband",
+        "gender": "Male",
+        "physics": 87,
+        "maths": 98,
+        "english": 85,
+        "semester": 5
+    },
+    {
+        "id": 20,
+        "name": "Anabelle Christofor",
+        "gender": "Female",
+        "physics": 62,
+        "maths": 67,
+        "english": 77,
+        "semester": 5
+    },
+    {
+        "id": 21,
+        "name": "Esma Cammack",
+        "gender": "Female",
+        "physics": 79,
+        "maths": 75,
+        "english": 67,
+        "semester": 8
+    },
+    {
+        "id": 22,
+        "name": "Shayne Carreck",
+        "gender": "Female",
+        "physics": 62,
+        "maths": 96,
+        "english": 70,
+        "semester": 2
+    },
+    {
+        "id": 23,
+        "name": "Kaitlin Summerlie",
+        "gender": "Female",
+        "physics": 68,
+        "maths": 77,
+        "english": 78,
+        "semester": 8
+    },
+    {
+        "id": 24,
+        "name": "Violette Sawart",
+        "gender": "Female",
+        "physics": 78,
+        "maths": 76,
+        "english": 71,
+        "semester": 3
+    },
+    {
+        "id": 25,
+        "name": "Keen Abrey",
+        "gender": "Male",
+        "physics": 68,
+        "maths": 93,
+        "english": 81,
+        "semester": 3
+    },
+    {
+        "id": 26,
+        "name": "Neron Kliemann",
+        "gender": "Male",
+        "physics": 95,
+        "maths": 100,
+        "english": 61,
+        "semester": 7
+    },
+    {
+        "id": 27,
+        "name": "Bram Busst",
+        "gender": "Male",
+        "physics": 94,
+        "maths": 99,
+        "english": 80,
+        "semester": 1
+    },
+    {
+        "id": 28,
+        "name": "Sherwynd Fargher",
+        "gender": "Male",
+        "physics": 74,
+        "maths": 98,
+        "english": 60,
+        "semester": 6
+    },
+    {
+        "id": 29,
+        "name": "Nels Kubasek",
+        "gender": "Male",
+        "physics": 66,
+        "maths": 63,
+        "english": 71,
+        "semester": 2
+    },
+    {
+        "id": 30,
+        "name": "Duffy Mostyn",
+        "gender": "Male",
+        "physics": 92,
+        "maths": 91,
+        "english": 95,
+        "semester": 2
+    },
+    {
+        "id": 31,
+        "name": "Wilek Harpham",
+        "gender": "Male",
+        "physics": 65,
+        "maths": 71,
+        "english": 63,
+        "semester": 2
+    },
+    {
+        "id": 32,
+        "name": "Malena Tampen",
+        "gender": "Female",
+        "physics": 62,
+        "maths": 92,
+        "english": 60,
+        "semester": 7
+    },
+    {
+        "id": 33,
+        "name": "Ferrel MacConnel",
+        "gender": "Male",
+        "physics": 72,
+        "maths": 61,
+        "english": 100,
+        "semester": 4
+    },
+    {
+        "id": 34,
+        "name": "Cameron Nijs",
+        "gender": "Male",
+        "physics": 100,
+        "maths": 85,
+        "english": 98,
+        "semester": 3
+    },
+    {
+        "id": 35,
+        "name": "Halsey Blinco",
+        "gender": "Male",
+        "physics": 60,
+        "maths": 82,
+        "english": 93,
+        "semester": 6
+    },
+    {
+        "id": 36,
+        "name": "Merrill Scanes",
+        "gender": "Male",
+        "physics": 91,
+        "maths": 81,
+        "english": 94,
+        "semester": 4
+    },
+    {
+        "id": 37,
+        "name": "Cordy Buffery",
+        "gender": "Female",
+        "physics": 85,
+        "maths": 74,
+        "english": 77,
+        "semester": 6
+    },
+    {
+        "id": 38,
+        "name": "Chrissie Duberry",
+        "gender": "Female",
+        "physics": 100,
+        "maths": 96,
+        "english": 99,
+        "semester": 8
+    },
+    {
+        "id": 39,
+        "name": "Simone Delahunty",
+        "gender": "Male",
+        "physics": 84,
+        "maths": 76,
+        "english": 98,
+        "semester": 7
+    },
+    {
+        "id": 40,
+        "name": "Maxwell Cordsen",
+        "gender": "Male",
+        "physics": 72,
+        "maths": 88,
+        "english": 86,
+        "semester": 8
+    },
+    {
+        "id": 41,
+        "name": "Elmore Clerke",
+        "gender": "Male",
+        "physics": 85,
+        "maths": 61,
+        "english": 60,
+        "semester": 8
+    },
+    {
+        "id": 42,
+        "name": "Brittani Trenouth",
+        "gender": "Female",
+        "physics": 64,
+        "maths": 88,
+        "english": 75,
+        "semester": 4
+    },
+    {
+        "id": 43,
+        "name": "Davida Temlett",
+        "gender": "Female",
+        "physics": 82,
+        "maths": 82,
+        "english": 88,
+        "semester": 7
+    },
+    {
+        "id": 44,
+        "name": "Matteo Kynton",
+        "gender": "Male",
+        "physics": 93,
+        "maths": 93,
+        "english": 68,
+        "semester": 7
+    },
+    {
+        "id": 45,
+        "name": "Jarrett Rohfsen",
+        "gender": "Male",
+        "physics": 79,
+        "maths": 77,
+        "english": 70,
+        "semester": 4
+    },
+    {
+        "id": 46,
+        "name": "Mandie Rosas",
+        "gender": "Male",
+        "physics": 75,
+        "maths": 72,
+        "english": 73,
+        "semester": 1
+    },
+    {
+        "id": 47,
+        "name": "Shanon Wann",
+        "gender": "Female",
+        "physics": 79,
+        "maths": 83,
+        "english": 69,
+        "semester": 7
+    },
+    {
+        "id": 48,
+        "name": "Nicky Fullalove",
+        "gender": "Male",
+        "physics": 97,
+        "maths": 95,
+        "english": 78,
+        "semester": 3
+    },
+    {
+        "id": 49,
+        "name": "Daniela Vickress",
+        "gender": "Male",
+        "physics": 81,
+        "maths": 92,
+        "english": 85,
+        "semester": 8
+    },
+    {
+        "id": 50,
+        "name": "Rusty McSparran",
+        "gender": "Male",
+        "physics": 74,
+        "maths": 74,
+        "english": 68,
+        "semester": 5
+    },
+    {
+        "id": 51,
+        "name": "Laryssa Absolem",
+        "gender": "Female",
+        "physics": 90,
+        "maths": 62,
+        "english": 96,
+        "semester": 6
+    },
+    {
+        "id": 52,
+        "name": "Jewelle Roman",
+        "gender": "Female",
+        "physics": 92,
+        "maths": 63,
+        "english": 96,
+        "semester": 5
+    },
+    {
+        "id": 53,
+        "name": "Derek Stonner",
+        "gender": "Male",
+        "physics": 78,
+        "maths": 95,
+        "english": 92,
+        "semester": 7
+    },
+    {
+        "id": 54,
+        "name": "Karim Tilbrook",
+        "gender": "Male",
+        "physics": 91,
+        "maths": 63,
+        "english": 73,
+        "semester": 1
+    },
+    {
+        "id": 55,
+        "name": "Terrie Hadaway",
+        "gender": "Female",
+        "physics": 88,
+        "maths": 78,
+        "english": 85,
+        "semester": 3
+    },
+    {
+        "id": 56,
+        "name": "Willabella Janu",
+        "gender": "Female",
+        "physics": 76,
+        "maths": 98,
+        "english": 68,
+        "semester": 2
+    },
+    {
+        "id": 57,
+        "name": "Edlin Moreton",
+        "gender": "Male",
+        "physics": 77,
+        "maths": 81,
+        "english": 94,
+        "semester": 1
+    },
+    {
+        "id": 58,
+        "name": "Kaiser Malkie",
+        "gender": "Male",
+        "physics": 98,
+        "maths": 99,
+        "english": 68,
+        "semester": 1
+    },
+    {
+        "id": 59,
+        "name": "Ellie Schenkel",
+        "gender": "Male",
+        "physics": 100,
+        "maths": 62,
+        "english": 65,
+        "semester": 2
+    },
+    {
+        "id": 60,
+        "name": "Scott Whitwam",
+        "gender": "Male",
+        "physics": 67,
+        "maths": 79,
+        "english": 87,
+        "semester": 3
+    },
+    {
+        "id": 61,
+        "name": "Ron Drei",
+        "gender": "Male",
+        "physics": 98,
+        "maths": 67,
+        "english": 68,
+        "semester": 7
+    },
+    {
+        "id": 62,
+        "name": "Melesa Bagnal",
+        "gender": "Female",
+        "physics": 83,
+        "maths": 67,
+        "english": 78,
+        "semester": 3
+    },
+    {
+        "id": 63,
+        "name": "Werner Esel",
+        "gender": "Male",
+        "physics": 91,
+        "maths": 89,
+        "english": 82,
+        "semester": 7
+    },
+    {
+        "id": 64,
+        "name": "Dion Merveille",
+        "gender": "Male",
+        "physics": 94,
+        "maths": 67,
+        "english": 81,
+        "semester": 7
+    },
+    {
+        "id": 65,
+        "name": "Blaire Archibald",
+        "gender": "Female",
+        "physics": 60,
+        "maths": 72,
+        "english": 73,
+        "semester": 6
+    },
+    {
+        "id": 66,
+        "name": "Kathlin Berrisford",
+        "gender": "Female",
+        "physics": 92,
+        "maths": 67,
+        "english": 60,
+        "semester": 2
+    },
+    {
+        "id": 67,
+        "name": "Corissa Jellett",
+        "gender": "Female",
+        "physics": 75,
+        "maths": 65,
+        "english": 78,
+        "semester": 6
+    },
+    {
+        "id": 68,
+        "name": "Katina Warn",
+        "gender": "Female",
+        "physics": 68,
+        "maths": 98,
+        "english": 78,
+        "semester": 3
+    },
+    {
+        "id": 69,
+        "name": "Ethelda Friatt",
+        "gender": "Female",
+        "physics": 74,
+        "maths": 66,
+        "english": 97,
+        "semester": 1
+    },
+    {
+        "id": 70,
+        "name": "Verge Cowcha",
+        "gender": "Male",
+        "physics": 83,
+        "maths": 80,
+        "english": 60,
+        "semester": 4
+    },
+    {
+        "id": 71,
+        "name": "Slade Guillon",
+        "gender": "Male",
+        "physics": 94,
+        "maths": 73,
+        "english": 71,
+        "semester": 7
+    },
+    {
+        "id": 72,
+        "name": "Henrieta Callear",
+        "gender": "Female",
+        "physics": 86,
+        "maths": 77,
+        "english": 65,
+        "semester": 6
+    },
+    {
+        "id": 73,
+        "name": "Christophorus Blazewicz",
+        "gender": "Male",
+        "physics": 73,
+        "maths": 77,
+        "english": 95,
+        "semester": 6
+    },
+    {
+        "id": 74,
+        "name": "Almeta Gascar",
+        "gender": "Female",
+        "physics": 78,
+        "maths": 99,
+        "english": 72,
+        "semester": 7
+    },
+    {
+        "id": 75,
+        "name": "Merill Hantusch",
+        "gender": "Male",
+        "physics": 82,
+        "maths": 85,
+        "english": 68,
+        "semester": 3
+    },
+    {
+        "id": 76,
+        "name": "Averil Wadham",
+        "gender": "Female",
+        "physics": 75,
+        "maths": 76,
+        "english": 99,
+        "semester": 4
+    },
+    {
+        "id": 77,
+        "name": "Gaye Mc Kellen",
+        "gender": "Female",
+        "physics": 99,
+        "maths": 76,
+        "english": 81,
+        "semester": 1
+    },
+    {
+        "id": 78,
+        "name": "Emmalynn Winnister",
+        "gender": "Female",
+        "physics": 72,
+        "maths": 85,
+        "english": 78,
+        "semester": 8
+    },
+    {
+        "id": 79,
+        "name": "Rozalin Osan",
+        "gender": "Female",
+        "physics": 85,
+        "maths": 98,
+        "english": 85,
+        "semester": 7
+    },
+    {
+        "id": 80,
+        "name": "Brittani Castelain",
+        "gender": "Male",
+        "physics": 82,
+        "maths": 81,
+        "english": 83,
+        "semester": 2
+    },
+    {
+        "id": 81,
+        "name": "Mal Wellman",
+        "gender": "Male",
+        "physics": 97,
+        "maths": 75,
+        "english": 68,
+        "semester": 3
+    },
+    {
+        "id": 82,
+        "name": "Curt Heyns",
+        "gender": "Male",
+        "physics": 94,
+        "maths": 89,
+        "english": 64,
+        "semester": 5
+    },
+    {
+        "id": 83,
+        "name": "Jeremiah Karpenko",
+        "gender": "Male",
+        "physics": 93,
+        "maths": 88,
+        "english": 65,
+        "semester": 2
+    },
+    {
+        "id": 84,
+        "name": "Delphinia Attrie",
+        "gender": "Female",
+        "physics": 85,
+        "maths": 66,
+        "english": 81,
+        "semester": 3
+    },
+    {
+        "id": 85,
+        "name": "Thane holmes",
+        "gender": "Female",
+        "physics": 61,
+        "maths": 61,
+        "english": 65,
+        "semester": 8
+    },
+    {
+        "id": 86,
+        "name": "Margret Oxenbury",
+        "gender": "Female",
+        "physics": 80,
+        "maths": 60,
+        "english": 90,
+        "semester": 7
+    },
+    {
+        "id": 87,
+        "name": "Jayme Cumberland",
+        "gender": "Female",
+        "physics": 85,
+        "maths": 70,
+        "english": 96,
+        "semester": 7
+    },
+    {
+        "id": 88,
+        "name": "Dougy Etchell",
+        "gender": "Male",
+        "physics": 88,
+        "maths": 79,
+        "english": 69,
+        "semester": 5
+    },
+    {
+        "id": 89,
+        "name": "Penn Burth",
+        "gender": "Male",
+        "physics": 77,
+        "maths": 82,
+        "english": 86,
+        "semester": 2
+    },
+    {
+        "id": 90,
+        "name": "Christy Sponer",
+        "gender": "Male",
+        "physics": 69,
+        "maths": 68,
+        "english": 83,
+        "semester": 2
+    },
+    {
+        "id": 91,
+        "name": "Lisle Goeff",
+        "gender": "Male",
+        "physics": 72,
+        "maths": 79,
+        "english": 86,
+        "semester": 3
+    },
+    {
+        "id": 92,
+        "name": "Faunie Legging",
+        "gender": "Female",
+        "physics": 83,
+        "maths": 66,
+        "english": 78,
+        "semester": 4
+    },
+    {
+        "id": 93,
+        "name": "Giraldo O'Lagene",
+        "gender": "Male",
+        "physics": 65,
+        "maths": 70,
+        "english": 90,
+        "semester": 1
+    },
+    {
+        "id": 94,
+        "name": "Crista Vicary",
+        "gender": "Female",
+        "physics": 84,
+        "maths": 64,
+        "english": 84,
+        "semester": 8
+    },
+    {
+        "id": 95,
+        "name": "Tori Madison",
+        "gender": "Female",
+        "physics": 88,
+        "maths": 65,
+        "english": 60,
+        "semester": 2
+    },
+    {
+        "id": 96,
+        "name": "Ernst Fabry",
+        "gender": "Male",
+        "physics": 64,
+        "maths": 80,
+        "english": 100,
+        "semester": 8
+    },
+    {
+        "id": 97,
+        "name": "Leonhard Ditch",
+        "gender": "Male",
+        "physics": 92,
+        "maths": 74,
+        "english": 81,
+        "semester": 1
+    },
+    {
+        "id": 98,
+        "name": "Marrissa Shoppee",
+        "gender": "Female",
+        "physics": 76,
+        "maths": 80,
+        "english": 91,
+        "semester": 6
+    },
+    {
+        "id": 99,
+        "name": "Jeff Grahlmans",
+        "gender": "Male",
+        "physics": 99,
+        "maths": 66,
+        "english": 84,
+        "semester": 6
+    },
+    {
+        "id": 100,
+        "name": "Andriana Rhodus",
+        "gender": "Female",
+        "physics": 63,
+        "maths": 99,
+        "english": 90,
+        "semester": 2
+    }
+]
+
+
