@@ -18,10 +18,7 @@ Route::get('/json', function () {
     
 
     return [
-        'group_by' => $students,
-        
+        'group_by' => $students,  
     ];
-    
-
 });
 

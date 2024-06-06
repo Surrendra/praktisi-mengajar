@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\ProductCategory;
+use App\Rules\UpperCaseRule;
 
 class ProductController extends Controller
 {
@@ -26,6 +27,13 @@ class ProductController extends Controller
 
     public function store(Request $request)
     {
+        $request->validate([
+            'name' => [
+                new UpperCaseRule
+            ],
+        ],[
+            'name.required' => 'Nama Produk Harus Diisi !',
+        ]);
         $product = Product::create([
             'product_category_id' => $request->product_category_id,
             'name' => $request->name,

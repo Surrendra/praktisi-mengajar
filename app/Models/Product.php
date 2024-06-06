@@ -16,8 +16,27 @@ class Product extends Model
         'deleted_at'
     ];
 
+    protected $appends = [
+        'readable_purchase_price'
+    ];
+
     public function productCategory()
     {
         return $this->hasOne(ProductCategory::class,'id','product_category_id');
+    }
+
+    public function setNameAttribute($value)
+    {
+        $this->attributes['name'] = ucwords($value);
+    }
+
+    // public function getPurchasePriceAttribute($value)
+    // {
+    //     return 'Rp. '.number_format($value,0,',','.');
+    // }
+
+    public function getReadablePurchasePriceAttribute()
+    {
+        return 'Rp. '.number_format($this->purchase_price,0,',','.');
     }
 }

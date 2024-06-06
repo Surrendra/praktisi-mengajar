@@ -24,6 +24,11 @@
             <label for="name" class="col-sm-2 col-form-label">Nama Produk</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" id="name" name="name">
+                @if ($errors->has('name'))
+                    <div class="text-danger">
+                        {!! $errors->first('name') !!}
+                    </div>
+                @endif
             </div>
         </div>
         <div class="mb-3 row">
