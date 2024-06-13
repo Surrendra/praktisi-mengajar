@@ -63,8 +63,8 @@
                         <td>{!! $product->description !!}</td>
                         <td>{!! $product->minimal_stock !!}</td>
                         <td>{!! $product->maximal_stock !!}</td>
-                        <td>{!! $product->purchase_price !!}</td>
-                        <td>{!! $product->selling_price !!}</td>
+                        <td>{!! $product->readable_purchase_price !!}</td>
+                        <td>{!! $product->readable_selling_price !!}</td>
                         <td>{!! $product->created_at !!}</td>
                     </tr>
                 @endforeach

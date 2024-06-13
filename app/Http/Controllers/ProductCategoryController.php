@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\ProductCategory;
+use App\Rules\CheckCategoryProduct;
+use App\Models\Product;
+use Illuminate\Support\Facades\Validator;
 
 class ProductCategoryController extends Controller
 {
@@ -55,6 +58,11 @@ class ProductCategoryController extends Controller
     public function destroy($product_category_id)
     {
         $product_catetory = ProductCategory::find($product_category_id);
+        $product = Product::where('product_category_id',$product_category_id)->first();
+        if (!empty($product)) {
+            return redirect()->route('product_categories.index')
+                ->with('error','Produk Kategori Ini Masih Memiliki Produk !');
+        }
         $product_catetory->delete();
         return redirect()->route('product_categories.index')
             ->with('success','Produk Berhasil Dihapus !');

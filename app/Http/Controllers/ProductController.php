@@ -26,6 +26,23 @@ class ProductController extends Controller
 
     public function store(Request $request)
     {
+        $request->validate([
+            'product_category_id' => 'required',
+            'name' => 'required',
+            'description' => 'required',
+            'unit' => 'required',
+            'maximal_stock' => [
+                'required',
+                'numeric'
+            ],
+            'minimal_stock' => 'required|numeric',
+            'selling_price' => 'required|numeric',
+            'purchase_price' => 'required|numeric'
+        ],[
+            'product_category_id.required' => 'Kategori Produk Wajib Diisi !',
+            'minimal_stock.required' => 'Stok Minimal Wajib Diisi !',
+            'minimal_stock.numeric' => 'Stok Minimal Harus Berupa Angka !',
+        ]);
         $product = Product::create([
             'product_category_id' => $request->product_category_id,
             'name' => $request->name,
